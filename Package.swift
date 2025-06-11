@@ -13,7 +13,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/kirualex/SwiftyGif.git", from: "5.3.0"),
-        .package(url: "https://github.com/SDWebImage/SDWebImage", exact: "5.19.7")
+        .package(url: "https://github.com/SDWebImage/SDWebImage", "5.19.7"..."5.19.7")
     ],
     targets: [
         .target(
